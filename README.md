@@ -8,14 +8,14 @@ They all use minilibx from 42 School, you can download it from 42 Paris github, 
 --- 
 
 ## Pong
-Was the first project I did, tried to do it only with pixels, collision is far from optimal, but kinda works.
+Was the first project I did, tried to do it only with pixels, collision is far from optimal, but kinda works. Does not have delta time at all, so performance will change a lot depending on the machine.
   - Commands:
   - `Space` starts the game
   - Player one uses `W` and `S`
   - Player two uses `Up Arrow` and `Down Arrow`
 
 ## Joyride
-A recreation of Jetpack Joyride, was interesting to get into mlx transparency, collision is much better since we're calculating them with images.
+A recreation of Jetpack Joyride, was interesting to get into mlx transparency, collision is much better since we're calculating them with images. Has a poor implementation of delta time, so performance might change depending on the machine.
   - Commands:
   - `Space` activates the jetpack
   - `Tab` restarts the game if you die
