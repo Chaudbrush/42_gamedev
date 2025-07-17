@@ -1,6 +1,6 @@
 # 42_gamedev
 
-Just some random games I did for the 20 games challenge, for the gamedev club of 42 Lisbon. Not sure I'll do them all, but I'll update here the ones I do.
+Just some random games I did for the 20 games challenge, for the gamedev club of 42 Lisbon. Not sure I'll do them all, but I'll update here the ones I do. They are made for Linux only.
 
 ### How to Play
 They all use minilibx from 42 School, you can download it from 42 Paris github, our use `make mlx` to download it. You can use `make del` to clean the files and the minilibx folder.
