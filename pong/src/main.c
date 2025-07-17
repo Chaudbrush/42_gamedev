@@ -6,7 +6,7 @@
 /*   By: vloureir <vloureir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/23 10:02:26 by vloureir          #+#    #+#             */
-/*   Updated: 2025/06/13 22:44:26 by vloureir         ###   ########.fr       */
+/*   Updated: 2025/06/19 21:54:44 by vloureir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,6 +99,8 @@ void	ft_init_data(t_data *prog)
 	prog->utils.p2_down = FALSE;
 	prog->utils.sign[0] = 1;
 	prog->utils.sign[1] = -1;
+	prog->utils.y_speed = 0;
+	prog->utils.x_speed = 0;
 	prog->utils.ball_x_sign = prog->utils.sign[(rand() % 2)];
 	prog->utils.ball_y_sign = prog->utils.sign[(rand() % 2)];
 	prog->utils.collision = TRUE;
